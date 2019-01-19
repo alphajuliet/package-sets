@@ -372,6 +372,16 @@
     "repo": "https://github.com/sharkdp/purescript-decimals.git",
     "version": "v4.0.0"
   },
+  "digraph": {
+    "dependencies" : [
+      "newtype",
+      "ordered-collections",
+      "pqueue",
+      "lists"
+    ],
+    "repo": "https://github.com/nullobject/purescript-digraph.git",
+    "version": "v2.0.0"
+  },
   "distributive": {
     "dependencies": [
       "identity",
@@ -1397,6 +1407,15 @@
     ],
     "repo": "https://github.com/purescript-node/purescript-posix-types",
     "version": "v4.0.0"
+  },
+  "pqueue": {
+    "dependencies": [
+      "newtype",
+      "ordered-collections",
+      "lists"
+    ],
+    "repo": "https://github.com/nullobject/purescript-pqueue.git",
+    "version": "v2.0.0"
   },
   "prelude": {
     "dependencies": [],
